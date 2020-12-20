@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <h2>{{title}}</h2>
+  </div>
+
+</div>
+
+
+<hr>
+
+
+<app-person-view [inPerson]="person" *ngFor="let person of persons | MyFilterPipe:searchGuy:searchSurname" (deleteperson)="onDeletePerson($event)"   (editperson)="onEditPerson($event)"  >
+</app-person-view>
+
+<app-person-add (addperson)="onAddPerson($event)"></app-person-add>

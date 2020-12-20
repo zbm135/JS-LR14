@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "firstname": "Геннадий",
+      "lastname": "DeRulo",
+      "phone": "+7 (124) 321-34-23",
+      "id": 3
+    },
+    {
+      "firstname": "Дмитрий",
+      "lastname": "DeRulo",
+      "phone": "+7 (124) 321-34-23",
+      "id": 4
+    },
+    {
+      "firstname": "Антон",
+      "lastname": "DeRulo",
+      "phone": "+7 (124) 321-34-23",
+      "id": 5
+    },
+    {
+      "firstname": "Алексей",
+      "lastname": "DeRulo",
+      "phone": "+7 (124) 321-34-23",
+      "id": 6
+    }
+  ]
+}
